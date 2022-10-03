@@ -1,1 +1,1 @@
-https://gabrielllipe.github.io/Projeto-Portifolio/
+https://gabrielllipe.github.io/Projeto-Portfolio/
