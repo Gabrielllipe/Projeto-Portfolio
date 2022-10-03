@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0; 
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    display: inline;
+    padding: 30px;
+}
+a:hover{
+    opacity: 0.7;
+}
+.header{
+    width: 100%;
+    background: #102B3F;
+    padding: 2rem 0;
+    box-shadow: 0 2px #9D9D9D;
+    overflow:hidden;
+    position: fixed;
+    z-index: 1;
+}
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-weight: 700;
+}
+.header nav a{
+    font-size: 18px;
+    color: white;
+    margin-left: 30px;
+}
+.main{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: #07121A;
+}
+.Apresentação{
+    display: inline-block;
+    color: white;
+    margin-top: 230px;
+    margin-left: 30px; 
+    text-indent: 1px;
+    width: 359px;
+}
+.nome{
+    color: #84B8DF;
+}
+.button{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.button a{
+    color: white;
+    font-weight: 700;
+    padding: 14px;
+    width: 80px;
+    background: #84B8DF;
+    box-shadow: 0 3px #9D9D9D;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+}
+.linke{
+    margin-left: 16%;
+    margin-top: 1%;
+}
+.github{
+    margin-left: 10px;
+
+}
+.sobre{
+    background: #0E2433;
+    color: white;
+    padding-top: 85px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.sobremim{
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    width: 600px;
+}
+.text{
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.email{
+
+    padding-top: 23px;
+    padding-bottom: 15px;
+
+}
+.fotodeperfil{
+    margin-top: -13px;
+}
+.logoprojetos{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.projetos{
+    padding: 0px 10% 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.projeto1,.projeto2,.projeto3,.projeto4{
+    display: inline-flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.borda1,.borda2,.borda3,.borda4{
+
+    margin-top: 55px;
+    display: inline-block;
+    background:#84B8DF;
+    padding: 20px 20px 20px 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 2px 0 rgb(0 0 0 / 32%);
+}
+.footer{
+    background: #102B3F;
+    color: white;
+    padding: 15px 0px 15px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 0px 2px #9D9D9D;
+}
+.footer a{
+    color: white;
+}
+@media (max-width: 930px){
+    .foto{
+        display: none;
+    }
+    .main{
+        padding-top: 0px;
+        padding-bottom: 80px;
+    }
+    .sobremim{
+        margin-left: 0px;
+        width: 500px;
+    }
+    .sobre{
+        align-items: center;
+        flex-direction: column;
+    }
+    .Apresentação{
+        margin-left: 0px;
+    }
+}
+@media (max-width: 690px){
+    .sobremim{
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fotodeperfil{
+        margin-bottom: 20px;
+    }
+    .text{
+        width: 58%;
+    }
+    }
+@media (max-width: 537px){
+    html, body{
+        overflow-x: hidden;
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
